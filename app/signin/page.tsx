@@ -1,6 +1,7 @@
-export default function signin() {
-    return 
+export default function SignIn() {
+    return (
     <div>
-        login page
+        signin page
     </div>
+    )
 }
