@@ -1,7 +1,10 @@
+import Link from "next/link";
+
 export default function SignIn() {
+
     return (
     <div>
-        signin page
+        <Link href={"/dashboard"}>click to get dashboard</Link>
     </div>
     )
 }
