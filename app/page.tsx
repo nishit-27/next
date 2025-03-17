@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <Link href={"/auth/signup"}>signup</Link>
-      <Link href={"auth/signin"}>signin</Link>
+      <Link href={"/signup"}>signup</Link>
+      <Link href={"/signin"}>signin</Link>
     </div>
   );
 }
