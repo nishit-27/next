@@ -7,3 +7,11 @@ export function GET() {
         password: "233"
     })
 }
+
+export function PUT() {
+    return NextResponse.json({
+        userName: "demo",
+        email: "demo@gmail.com",
+        password: "223"
+    })
+}
